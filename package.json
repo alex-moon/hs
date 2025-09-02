@@ -1,0 +1,16 @@
+{
+  "name": "hn-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hourly Hacker News scraper with SQLite storage and trend report generator.",
+  "main": "scraper.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "report": "node generate_report.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "cheerio": "^1.0.0"
+  }
+}
